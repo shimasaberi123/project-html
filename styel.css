@@ -15,7 +15,7 @@ div.main{
 text-align: right;    
 
 }
-div.menu{ 
+header.menu{ 
 display: inline-block;
    background-color:rgb(171, 192, 233);
    text-align: right;    
@@ -51,7 +51,7 @@ li a:hover{
     text-decoration:none;
     cursor: pointer;
 }
-div.pic{
+section.pic{
     width: 80%;
     height: 15%;
     margin-right: auto;
@@ -131,7 +131,7 @@ margin-right: 20px;
 margin-left: 20px;
 border: solid white 1px;
 }
-div.article_div{
+section.row{
     width: 80%;
   height: 80%;
     border: solid 1px;
@@ -147,4 +147,120 @@ div.main_div{
     margin-left: auto;
     margin-right: auto;
 
+}
+.box{
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 13px;
+    background-color: rgb(176, 212, 247);
+    color: black;
+}
+main{
+    width: 68%;
+    margin: 0 1%;
+    float: right;
+}
+aside{
+    width: 28%;
+    margin: 0 1%;
+    float: right;
+}
+.clearfix::after,
+.clearfix::before{
+content: '';
+display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.p-top-row{
+    color: rgb(0, 0, 0); 
+    font-size: 30px; 
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul ul {
+	display: none;
+}
+ 
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul {
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+    z-index: 100;
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul li {
+	float: right;
+	position: relative;
+	font-weight: bold;
+}
+
+nav ul li:hover {
+	background: #3a63af;
+}
+
+
+
+nav ul li a {
+	display: block;
+	padding: 15px 32px;
+	color: #a7a5ec;
+	text-decoration: none;
+}
+
+nav ul li {
+	float: right;
+	position: relative;
+	font-weight: bold;
+}
+
+nav ul li:hover a {
+	color: rgb(255, 251, 251);
+}
+ 
+nav ul li a {
+	display: block;
+	padding: 15px 32px;
+	color: #000000;
+	text-decoration: none;
+}
+
+nav ul ul {
+	background: #0e146d;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+}
+
+	
+
+nav ul ul li a {
+	padding: 15px 40px;
+	color: rgb(0, 0, 0);
+}	
+nav ul ul li a:hover {
+	background: #5056b1;
+}
+nav ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
 }
