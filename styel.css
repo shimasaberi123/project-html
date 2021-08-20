@@ -320,3 +320,44 @@ text-decoration: none;
 font-size: 15px;
 color: rgb(14, 107, 107);
 }
+table.tabel-1{
+    
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(204, 204, 204);
+    border: 2px double black;
+    border-spacing: 1px;
+    
+   
+  }
+      
+      td{
+      padding:5px;
+      text-align:center;
+      }
+      
+      th{
+      background-color:#3d3e8b;
+      color:rgb(255, 255, 255);
+      border:2px solid black;
+      padding:5px;
+    
+      
+      }
+      .tr-th:hover{
+        box-shadow: none;
+        transform: none;
+        transition: none;
+    }
+
+      tr:hover{
+        color:rgb(0, 0, 0);
+        box-shadow: 1px 3px 12px 1px #555;
+        transform:scale(1.04);
+        transition:0.7s;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+            }
