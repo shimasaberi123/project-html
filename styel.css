@@ -149,7 +149,7 @@ div.main_div{
 
 }
 .box{
-    height: 600px;
+    height: 900px;
     line-height: 10px;
     text-align: center;
     font-size: 13px;
@@ -275,7 +275,7 @@ article.login-ar{
     border-radius: 15px;
     line-height: 70px;
 }
-form{
+form.lo-form{
     line-height: 30px;
     text-align: center;
     direction: ltr;
@@ -360,4 +360,120 @@ table.tabel-1{
         
         tr:nth-child(even) {
             background-color: #f2f2f2;
+            }
+            div.under-page-form{
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 40px;
+                width: 430px;
+                height: 700px;
+                background-color: rgb(201, 205, 206);
+               transform: rotate(-12deg);
+               border-radius: 15px;
+               box-shadow: 1px 20px 15px 1px rgb(151, 147, 148);
+               
+            }
+            div.top-page-form{
+   
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 40px;
+                width: 420px;
+                height: 700px;
+                background-color: rgb(113, 131, 236);
+                position: relative;
+                bottom: 740px;
+                border-radius: 14px;
+                line-height: 30px;
+                box-shadow: 1px 10px 12px 1px rgb(151, 147, 148);
+            
+            }
+            article.ar-form{
+                text-align: right;
+                display: block;
+                margin-top: 21px;
+                margin-right: 15px;
+                
+            }
+            form.re-form input[type=text]{
+                width: 150px;
+                height: 30px;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(0, 0, 0);
+                padding: 0px 30px 10px 0px;
+                margin-left: 10px;
+                margin-top: 12px;
+                box-shadow: 1px 2px 2px 1px rgb(151, 147, 148);
+               
+            }
+            form.re-form input[type=email]{
+                width: 85%;
+                height: 30px;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(0, 0, 0);
+                padding: 0px 30px 10px 0px;
+                margin-top: 12px;
+                box-shadow: 1px 2px 2px 1px rgb(151, 147, 148);
+                background-image: url('image/email-icon-form.png');
+                background-repeat: no-repeat;
+              
+                
+            }
+            form.re-form select{
+                width: 93%;
+                height: 30px;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(88, 87, 87);
+                box-shadow: 1px 2px 2px 1px rgb(151, 147, 148);
+              
+            }
+            form.re-form input[type=submit]{
+                width: 150px;
+                height: 40px;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(0, 0, 0);
+                margin-top: 12px;
+                box-shadow: 1px 2px 2px 1px rgb(151, 147, 148);
+                position: relative;
+                top: 20px;
+                right: 220px;
+               font-weight: bold;
+               cursor: pointer;
+            }
+            form.re-form input[id=username]{
+                background-image: url('image/person-icon-form.png');
+                background-repeat: no-repeat;    
+               
+            }
+            form.re-form input[id=phonenumber]{
+
+                background-image: url('image/phone-icon-form.png');
+                background-repeat: no-repeat;
+                
+                
+            }
+            form.re-form input[id=password]{
+            
+                background-image: url('image/lock-icon-form.png');
+                background-repeat: no-repeat;
+               
+            }
+            form.re-form input[id=re-password]{
+            
+                background-image: url('image/lock-icon-form.png');
+                background-repeat: no-repeat;
+                
+               
+            }
+            .ar-form a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            .ar-form a:hover{
+                color: rgb(247, 251, 252);
             }
