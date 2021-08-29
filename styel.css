@@ -67,15 +67,10 @@ section.pic{
     margin-left: auto;
     position: relative;
 bottom: 3px;
-transition: width 4s,height 4s ,transform 2s;
+
 
 }
-[class=section-pic]:hover{
 
-    transform: scale(1.2,1.2);
-    z-index: 2;
-    
-}
 img.pic_menu{
     width: 100%;
     height: 260px;
@@ -156,7 +151,7 @@ section.row{
 	background-color: rgba(158,157,244,1.00);
     position: relative;
     bottom: 10px;
-    z-index: -1;
+    
 }
 div.main_div{
     width: 85%;
@@ -292,7 +287,7 @@ article.login-ar{
     border-radius: 15px;
     line-height: 70px;
 }
-form.lo-form{
+form.login-form{
     line-height: 30px;
     text-align: center;
     direction: ltr;
@@ -301,7 +296,7 @@ form.lo-form{
   margin-right: 40px;
 
 }
-input[type=text]{
+form.login-form input[type=text]{
   width: 304px;
   padding: 10px 10px;
   border: none;
@@ -309,7 +304,7 @@ input[type=text]{
   border-radius: 4px;
   
 }
-input[type=button]{
+form.login-form input[type=submit]{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -320,14 +315,13 @@ input[type=button]{
     background-color: rgb(49, 80, 179);
     font-size: 14px;
     cursor: pointer;
-
     font-weight: bold;
 }
-input[type=button]:focus{
+form.login-form input[type=submit]:focus{
     cursor: pointer;
-    background-color:rgb(6, 36, 138); ;
+    background-color:rgb(146, 159, 204); ;
 }
-label{
+form.login-form label{
     font-size: 15px;
     font-weight: bold;
 }
@@ -412,7 +406,7 @@ table.tabel-1{
                 margin-right: 15px;
                 
             }
-            form.re-form input[type=text]{
+            form.register-form input[type=text]{
                 width: 150px;
                 height: 30px;
                 border-radius: 5px;
@@ -424,7 +418,7 @@ table.tabel-1{
                 box-shadow: 1px 2px 2px 1px rgb(151, 147, 148);
                
             }
-            form.re-form input[type=email]{
+            form.register-form input[type=email]{
                 width: 85%;
                 height: 30px;
                 border-radius: 5px;
@@ -438,7 +432,7 @@ table.tabel-1{
               
                 
             }
-            form.re-form select{
+            form.register-form select{
                 width: 93%;
                 height: 30px;
                 border-radius: 5px;
@@ -447,39 +441,56 @@ table.tabel-1{
                 box-shadow: 1px 2px 2px 1px rgb(151, 147, 148);
               
             }
-            form.re-form input[type=submit]{
-                width: 150px;
+            form.register-form input[type=submit] {
+                width: 130px;
                 height: 40px;
                 border-radius: 5px;
                 font-family: Arial, Helvetica, sans-serif;
                 color: rgb(0, 0, 0);
-                margin-top: 12px;
                 box-shadow: 1px 2px 2px 1px rgb(151, 147, 148);
-                position: relative;
-                top: 20px;
-                right: 220px;
                font-weight: bold;
                cursor: pointer;
+               margin-top: 30px;
+               margin-left: 80px;
+               margin-right: 20px;
             }
-            form.re-form input[id=username]{
+            form.register-form input[type=reset]
+{
+                 width: 130px;
+                height: 40px;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(0, 0, 0);
+                box-shadow: 1px 2px 2px 1px rgb(151, 147, 148);
+               font-weight: bold;
+               cursor: pointer;
+}            
+form.register-form input[type=submit]:hover{
+background-color: #b194e0 ;
+}
+form.register-form input[type=reset]:hover{
+    background-color: #b194e0 ;
+    }
+
+            form.register-form input[id=username]{
                 background-image: url('image/person-icon-form.png');
                 background-repeat: no-repeat;    
                
             }
-            form.re-form input[id=phonenumber]{
+            form.register-form input[id=phonenumber]{
 
                 background-image: url('image/phone-icon-form.png');
                 background-repeat: no-repeat;
                 
                 
             }
-            form.re-form input[id=password]{
+            form.register-form input[id=password]{
             
                 background-image: url('image/lock-icon-form.png');
                 background-repeat: no-repeat;
                
             }
-            form.re-form input[id=re-password]{
+            form.register-form input[id=re-password]{
             
                 background-image: url('image/lock-icon-form.png');
                 background-repeat: no-repeat;
