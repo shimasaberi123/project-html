@@ -91,42 +91,69 @@
         </p>	
 <main class="box">
   <h1> در این قسمت اطلاعات خود را وارد کنید </h1>
-  <table width="500px" height="200px" border="1" class="tabel-1">
-    <tbody>
-      <tr class="tr-th">
-        <th >نام </th>
-        <th scope="col"> نام خانوادگی</th>
-        <th scope="col"> تاریخ تولد </th>
-        <th scope="col">شماره تماس</th>
-        <th scope="col">شهر</th>
-      </tr>
-      <tr>
+
+  <div class="div-table-information">
+  <form class="form-add-table">
+    <h1>لطفا فرم را پر کنید </h1>
+    <label for="">نام:
+    <input type="text" id="Name" name="Name" placeholder="علی">
+    </label>
+    <label>نام خانوادگی:
+    <input type="text"  id="FName"  name="FName" placeholder="احمدی">
+  </label>
+  <label for="">تاریخ:
+    <input  type="date"  id="Date"  name="Date"  placeholder="15/2/77" >
+  </label>
+  <label for="">شماره تماس:
+    <input type="text"id="Phone" name="Phone"  placeholder="0935648573">
+  </label>
+<label for="">شهر:
+  <input type="text"  id="City"  placeholder="تهران   " name="City">
+</label> 
+   
+    <input type="submit"   value="اضافه کردن">
+  </form>
+</div>
+<table width="500px" height="200px" border="1"  class="tabel-1"   id="tableBody">
+  <thead>
+    <tr class="tr-th">
+      <th >نام </th>
+      <th > نام خانوادگی</th>
+      <th> تاریخ تولد </th>
+      <th >شماره تماس</th>
+      <th >شهر</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody" >
+
+  
+    <tr>
+      <td> زهرا  </td>
+      <td>احمدی</td>
+      <td> 25/8/75</td>
+      <td> 09132365987</td>
+      <td>  تهران </td>
+    </tr>
+    <tr>
       
-        <td> زهرا  </td>
-        <td>احمدی</td>
-        <td> 25/8/75</td>
-        <td> 09132365987</td>
-        <td>  تهران </td>
-      </tr>
-      <tr>
-        
-        <td>علی</td>
-        <td>صادقی</td>
-        <td> 10/5/73</td>
-        <td>09105624987</td>
-        <td> تبریز   </td>
-      </tr>
-      <tr>
-        
-        <td>مریم</td>
-        <td>سلمانی</td>
-        <td>23/6/68</td>
-        <td> 09056585947</td>
-        <td> شیراز</td>
-      </tr>
+      <td>علی</td>
+      <td>صادقی</td>
+      <td> 10/5/73</td>
+      <td>09105624987</td>
+      <td> تبریز   </td>
+    </tr>
+    <tr>
+      
+      <td>مریم</td>
+      <td>سلمانی</td>
+      <td>23/6/68</td>
+      <td> 09056585947</td>
+      <td> شیراز</td>
+    </tr>
+   
     </tbody>
-  </table>
-	
+
+</table>
 	
 	
 	
@@ -145,7 +172,7 @@
 
 
 
-   
+   <script src="app.js" type="text/javascript"></script>
 </div>
 </body>
 </html>

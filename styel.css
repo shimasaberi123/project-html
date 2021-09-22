@@ -505,3 +505,65 @@ form.register-form input[type=reset]:hover{
             .ar-form a:hover{
                 color: rgb(247, 251, 252);
             }
+            div.div-table-information{
+                width: 400px;
+                height: 280px;
+                background-color: rgb(129, 165, 233);
+                margin-right: auto;
+                margin-left: auto;
+                border-radius: 10px;
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            form.form-add-table{
+                line-height: 10px;
+                text-align: center;
+                direction: rtl;
+              margin-right: 15px;
+              margin-right: 15px;
+            
+            }
+            form.form-add-table input[type=text]{
+              width: 102px;
+              height: 7px;
+              padding: 10px 10px;
+              border: none;
+              border-bottom: 2px solid rgb(159, 159, 206);
+              border-radius: 4px;
+              margin-right: 10px;
+              margin-top: 10px;
+            }
+            form.form-add-table input[type=date]{
+                width: 102px;
+                height: 9px;
+                padding: 10px 10px;
+                border: none;
+                border-bottom: 2px solid rgb(159, 159, 206);
+                border-radius: 4px;
+                margin-top: 10px;
+                
+              }
+            form.form-add-table input[type=submit]{
+                
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 150px;
+                margin-top: 20px;
+                border-radius: 10px ;
+                padding: 7px 10px;
+                background-color: rgb(88, 117, 212);
+                font-size: 12px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            form.form-add-table input[type=submit]:focus{
+                cursor: pointer;
+                background-color:rgb(38, 175, 141); ;
+            }
+            form.form-add-table label{
+                font-size: 14px;
+                font-weight: bold;
+                margin-right: 2px;
+            }
